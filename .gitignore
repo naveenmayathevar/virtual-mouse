@@ -1,0 +1,23 @@
+# Ignore Python virtual environment
+.venv/
+
+# Ignore PyInstaller output
+__pycache__/
+build/
+dist/
+*.spec
+
+# Ignore IDE/editor settings
+*.vscode/
+*.idea/
+
+# Ignore image/video test output
+*.mp4
+*.avi
+*.gif
+*.png
+*.jpg
+
+# Ignore logs or temp files
+*.log
+*.tmp
