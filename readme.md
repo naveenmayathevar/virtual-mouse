@@ -1,27 +1,44 @@
-# ✋ Virtual Mouse with Hand Gestures
+# 🖐️ Virtual Mouse using Hand Gestures (MediaPipe + OpenCV + Tkinter)
 
-Control your mouse using just your hand movements and a webcam — no hardware needed!
-
-This Python project uses computer vision to track your hand in real time and lets you:
-- 🖱️ Move the mouse with your index finger
-- 🤏 Perform a left-click by pinching your thumb and index finger
+Control your computer's mouse using hand gestures through your webcam!  
+Built using Python, OpenCV, MediaPipe, and includes a GUI built with Tkinter for gesture toggling and startup confirmation.
 
 ---
 
-## 🚀 Demo
-![demo gif or screenshot here](link-to-your-demo.gif)
+## ✨ Features
+
+- 📹 **Webcam-based gesture tracking**
+- 🖱️ **Move Mouse** with index finger
+- 👈 **Pinch to Left Click**
+- ✊ **Fist for Right Click**
+- ✌️ **Scroll with two fingers**
+- 🖼️ **Tkinter UI for startup demo and gesture toggles**
+- ✅ Must agree to instructions before app starts
+- 🖼️ Includes gesture demo GIFs in GUI
+- 🛠️ **One-click EXE file** using PyInstaller
 
 ---
 
-## 🛠️ Technologies Used
+## 🖼️ UI Overview
 
-- [OpenCV](https://opencv.org/) – video capture and frame processing  
-- [MediaPipe](https://google.github.io/mediapipe/) – real-time hand tracking  
-- [PyAutoGUI](https://pyautogui.readthedocs.io/) – mouse control  
-- Python 3.10  
-- Windows 64-bit
+- **Before Start**: Instructions shown with GIFs  
+- **Checkbox**: Must be ticked to understand controls  
+- **Start Button**: Activates webcam and launches control  
+- **Toggles**:
+  - Enable/Disable move
+  - Enable/Disable left click
+  - Enable/Disable right click
 
 ---
 
-## 📁 Project Structure
+## 🧠 Hand Gestures
+
+| Gesture         | Action             |
+|----------------|--------------------|
+| ☝️ Index finger | Move cursor        |
+| 👉 Pinch        | Left Click         |
+| ✊ Fist         | Right Click        |
+| ✌️ Two fingers | Scroll (vertical)  |
+
+
 
